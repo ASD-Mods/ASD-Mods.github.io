@@ -1,9 +1,11 @@
 {
   "name": "docs",
+  "homepage": "https://asd-mods.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
