@@ -1,11 +1,12 @@
 {
   "name": "docs",
-  "homepage": "https://asd-mods.github.io/",
+  "homepage": "https://asd-mods.github.io/asd-mods.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run dev",
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "tsc -b && vite build",
