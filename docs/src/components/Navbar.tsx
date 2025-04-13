@@ -1,4 +1,3 @@
-import React from "react";
 import { useLocation } from "react-router-dom";
 
 const PageInfo = () => {
@@ -10,6 +9,8 @@ const PageInfo = () => {
 };
 
 const Navbar = () => {
+  PageInfo();
+
   return (
     <>
       <div className="topnav">
