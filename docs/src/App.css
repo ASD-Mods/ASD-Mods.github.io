@@ -1,42 +1,40 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+:root {
+  --primary: #101210;
+  --secondary: #f0fff0;
+}
+
+body {
+  background-color: var(--primary);
+  font-family: Inter,Inter Fallback;
+  font-weight: 500;
+  line-height: 1.25rem;
+  font-size: .875rem;
+  color: var(--secondary);
+}
+
+.topnav {
+  background-image: linear-gradient(rgb(0, 60, 78), rgba(255, 255, 255, 0));
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: var(--secondary);
   text-align: center;
+  padding: 32px 16px 32px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #00969b;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: #00969b;
+  text-decoration: underline;
 }
