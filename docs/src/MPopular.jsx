@@ -1,4 +1,5 @@
 import './MPopular.css'
+import tempImage from './assets/capsule_616x353.jpg'
 
 function PopularMods(){
     return (
@@ -11,7 +12,7 @@ function PopularMods(){
 
                 <div className="popularmod-card">
 
-                    <img src="" alt="PLACEHOLDER" />
+                    <img src={tempImage} alt="PLACEHOLDER" />
                     <h3>PLACEHOLDER</h3>
                     <p>💾 45,200 Downloads</p>
 
@@ -19,7 +20,7 @@ function PopularMods(){
 
                 <div className="popularmod-card">
 
-                    <img src="" alt="PLACEHOLDER" />
+                    <img src={tempImage} alt="PLACEHOLDER" />
                     <h3>PLACEHOLDER</h3>
                     <p>💾 45,200 Downloads</p>
 
@@ -27,7 +28,7 @@ function PopularMods(){
 
                 <div className="popularmod-card">
 
-                    <img src="" alt="PLACEHOLDER" />
+                    <img src={tempImage} alt="PLACEHOLDER" />
                     <h3>PLACEHOLDER</h3>
                     <p>💾 45,200 Downloads</p>
                     
