@@ -29,6 +29,11 @@
     color: whitesmoke;
     text-decoration: none;
     margin-right: 1rem;
+    transition: color 0.3s ease;
+}
+
+.topbar-link:hover {
+    color: rgb(0, 174, 255);
 }
 
 .active {
