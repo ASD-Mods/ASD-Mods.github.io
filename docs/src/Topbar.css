@@ -1,5 +1,6 @@
 
 .topbar {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,6 +13,25 @@
 .topbar-left {
     display: flex;
     align-items: center;
+}
+
+.topbar-middle {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topbar-link {
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.5px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.active {
+    color: rgb(0, 174, 255);
 }
 
 .logo-circle {
