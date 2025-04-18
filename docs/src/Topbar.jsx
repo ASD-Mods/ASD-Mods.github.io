@@ -10,10 +10,10 @@ function Topbar (){
             </div>
             <div className="topbar-middle">
                 <div className='container'>
-                    <a className='topbar-link active' href="#Home">Home</a>
-                    <a className='topbar-link' href="#Games">Games</a>
-                    <a className='topbar-link' href="#Modders">Modders</a>
-                    <a className='topbar-link' href="#Help">Help</a>
+                    <a className='topbar-link active' href="#Home">Home</a>   
+                    <a className='topbar-link' href="#Games">Games</a>   
+                    <a className='topbar-link' href="#Modders">Modders</a>   
+                    <a className='topbar-link' href="#Help">Help</a>   
                 </div>
             </div>
             <div className="topbar-right">

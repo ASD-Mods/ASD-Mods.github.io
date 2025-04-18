@@ -1,6 +1,6 @@
 
 .topbar {
-
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,9 +16,9 @@
 }
 
 .topbar-middle {
-    display: flex;
-  justify-content: center;
-  align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .topbar-link {
@@ -28,10 +28,13 @@
     letter-spacing: 0.5px;
     color: whitesmoke;
     text-decoration: none;
+    margin-right: 1rem;
 }
 
 .active {
     color: rgb(0, 174, 255);
+    text-decoration: underline;
+    text-underline-offset: 0.5rem; 
 }
 
 .logo-circle {
