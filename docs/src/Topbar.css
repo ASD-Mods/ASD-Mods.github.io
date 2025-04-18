@@ -22,6 +22,10 @@
 }
 
 .topbar-link {
+    will-change: transform;
+    display: inline-block;
+    transition: transform 10s ease;
+
     font-weight: 700;
     font-size: 1.3rem;
     font-family: 'Inter', sans-serif;
@@ -33,7 +37,8 @@
 }
 
 .topbar-link:hover {
-    color: rgb(0, 174, 255);
+    transform: translateY(-3px);
+    color: rgb(91, 203, 255);
 }
 
 .active {
