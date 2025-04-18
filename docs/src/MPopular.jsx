@@ -11,6 +11,7 @@ function PopularMods(){
 
                 <div className="popularmod-card">
 
+                    <img src="" alt="PLACEHOLDER" />
                     <h3>PLACEHOLDER</h3>
                     <p>💾 45,200 Downloads</p>
 
@@ -18,6 +19,7 @@ function PopularMods(){
 
                 <div className="popularmod-card">
 
+                    <img src="" alt="PLACEHOLDER" />
                     <h3>PLACEHOLDER</h3>
                     <p>💾 45,200 Downloads</p>
 
@@ -25,6 +27,7 @@ function PopularMods(){
 
                 <div className="popularmod-card">
 
+                    <img src="" alt="PLACEHOLDER" />
                     <h3>PLACEHOLDER</h3>
                     <p>💾 45,200 Downloads</p>
                     

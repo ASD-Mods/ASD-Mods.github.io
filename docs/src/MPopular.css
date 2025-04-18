@@ -1,6 +1,6 @@
 .popular-mods {
     text-align: center;
-    padding: 3rem 1rem;
+    padding: 0rem 1rem;
     color: white;
     font-family: 'Inter', sans-serif;
 }
@@ -42,4 +42,12 @@
 .popularmod-card p {
     font-size: 0.95rem;
     color: #ccc;
+}
+
+.popularmod-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
 }
