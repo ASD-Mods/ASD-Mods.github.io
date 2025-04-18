@@ -24,8 +24,7 @@
 .topbar-link {
     will-change: transform;
     display: inline-block;
-    transition: transform 10s ease;
-
+    transition: transform 0.3s ease, color 0.3s ease;
     font-weight: 700;
     font-size: 1.3rem;
     font-family: 'Inter', sans-serif;
@@ -33,7 +32,6 @@
     color: whitesmoke;
     text-decoration: none;
     margin-right: 1rem;
-    transition: color 0.3s ease;
 }
 
 .topbar-link:hover {
