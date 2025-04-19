@@ -1,8 +1,8 @@
 /* IMPORTS BELOW */
 
-import Topbar from './Topbar.jsx'
-import Hero from './Hero.jsx'
-import MPopular from './MPopular.jsx'
+import Topbar from './components/Topbar.jsx'
+import Hero from './components/Hero.jsx'
+import MPopular from './components/MPopular.jsx'
 import './index.css'
 
 function App() {

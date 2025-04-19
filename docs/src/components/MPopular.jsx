@@ -1,5 +1,5 @@
 import './MPopular.css'
-import tempImage from './assets/capsule_616x353.jpg'
+import tempImage from '../assets/capsule_616x353.jpg'
 
 function PopularMods(){
     return (
