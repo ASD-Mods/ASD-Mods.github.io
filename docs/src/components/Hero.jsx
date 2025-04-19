@@ -7,7 +7,6 @@ function Hero() {
 
             <h1>MODBUNKER</h1>
             <p>» The safest most high quality mods «</p>
-            <hr className="top-linebreak"/>
             
         </div>
 

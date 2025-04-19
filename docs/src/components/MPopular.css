@@ -70,21 +70,3 @@
     font-size: 1.1rem;
     margin-top: 0.5rem;
 }
-
-.top-linebreak {
-    margin: 6rem auto;
-    width: 80%;
-    border: none;
-    height: 3px;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 2px;
-}
-
-.popularmods-info {
-    text-align: center;
-    color: whitesmoke;
-    font-family: 'Inter', sans-serif;
-    margin-top: 1.5rem;
-    font-size: 1.5rem;
-    line-height: 1.4;
-}
