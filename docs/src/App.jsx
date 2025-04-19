@@ -3,6 +3,7 @@
 import Topbar from './components/Topbar.jsx'
 import MPopular from './components/MPopular.jsx'
 import Customlinebreak from './components/CustomLineBreak.jsx'
+import TempComp from './components/tempcomp.tsx'
 import './index.css'
 import './main.css'
 
@@ -11,6 +12,8 @@ function App() {
     <>
 
       <Topbar/>
+
+      <TempComp text="Prop">Children</TempComp>
 
       <div className="hero">
 
