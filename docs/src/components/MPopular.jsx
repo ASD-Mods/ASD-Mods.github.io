@@ -1,6 +1,5 @@
 import './MPopular.css'
 import tempImage from '../assets/capsule_616x353.jpg'
-import Customlinebreak from './CustomLineBreak'
 
 function PopularMods(){
     return (
