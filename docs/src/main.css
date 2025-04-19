@@ -1,3 +1,4 @@
+/* WEBSITE HERO CSS */
 
 .hero {
     text-align: center;
@@ -15,4 +16,16 @@
 .hero p {
     font-size: 1.1rem;
     margin-top: 0.5rem;
+}
+
+
+/* WEBSITE DESCRIPTION CSS */
+
+.wesbite-info {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1.4;
 }
