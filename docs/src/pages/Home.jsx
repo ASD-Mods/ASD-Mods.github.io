@@ -65,10 +65,50 @@ const Home = () => {
 
       <Customlinebreak />
 
-      <SideBySidePara />
+      <SideBySidePara Title="Many different games that you can chose from.">
+        Choose from over 23048702537 different games for you to play, mod, and
+        enjoy.
+      </SideBySidePara>
 
       <Customlinebreak />
-      <Customlinebreak />
+
+
+      <div className='for-creators'>
+        <h1 className='fc-title'>For Creators</h1>
+        <h3>Create mods for everyone to enjoy</h3>
+
+        <Customlinebreak />
+
+        <div className="fc-grid">
+
+                <div className="fc-card">
+
+                    <h3>Discovery</h3>
+                    <p>Get your project discovered by thousands of users through search, our home page, Discord server, and more ways to come in the future!</p>
+
+                </div>
+
+                <div className="fc-card">
+
+                    <h3>Team Management</h3>
+                    <p>Invite your teammates and manage roles and permissions with ease</p>
+
+                </div>
+
+                <div className="fc-card">
+                    <h3>Constantly Evolving</h3>
+                    <p>Get the best modding experience possible with constant updates from the Modrinth team</p>
+                </div>
+
+            </div>
+        
+            <Customlinebreak />
+
+            <h3 className='fc-title'>Learn more at out dedicated modder section</h3>
+            <a className='fc-learn-more' href="/modcreators/home">Learn More</a>
+            
+            <Customlinebreak />
+      </div>
     </>
   )
 }
