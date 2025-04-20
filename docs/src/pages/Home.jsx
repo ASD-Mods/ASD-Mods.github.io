@@ -50,10 +50,6 @@ const Home = () => {
                     
                 </div>
 
-                <Customlinebreak />
-
-                <SideBySidePara />
-
             </div>
 
         </section>
@@ -69,6 +65,10 @@ const Home = () => {
 
       <Customlinebreak />
 
+      <SideBySidePara />
+
+      <Customlinebreak />
+      <Customlinebreak />
     </>
   )
 }

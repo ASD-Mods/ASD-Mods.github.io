@@ -8,8 +8,8 @@ const SideBySidePara = () => {
   return (
     <div className='SideBySidePara'>
         <div className='SBSP-Left'>
-            <h1>Left</h1>
-            <p>asduh hasd iuguiasd giagd iugasdiug aisug diuagsd iugsd iugsa udasg diusagd asduh hasd iuguiasd giagd iugasdiug aisug diuagsd iugsd iugsa udasg diusagdiugsad iug sadiu iuasd giuasgdiugiudgiuas dguisgd auidag siugd asiugida</p>
+            <h3>Many different games that you can chose from.</h3>
+            <p>Choose from over 23048702537 different games for you to play, mod, and enjoy.</p>
         </div>
         <div className='SBSP-Right'>
             <img width="100%" src={tempImage} alt="STUFF" />
