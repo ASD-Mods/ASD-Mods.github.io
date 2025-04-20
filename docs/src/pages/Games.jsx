@@ -1,5 +1,4 @@
 import Topbar from '../components/Topbar.jsx'
-import MPopular from '../components/MPopular.jsx'
 import Customlinebreak from '../components/CustomLineBreak.jsx'
 import '../index.css'
 import './Games.css'
@@ -18,7 +17,6 @@ const Home = () => {
         </div>
         
       <Customlinebreak />
-      <MPopular/>
       <Customlinebreak />
 
       <p className="wesbite-info">
