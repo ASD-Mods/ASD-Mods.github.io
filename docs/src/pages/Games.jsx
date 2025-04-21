@@ -6,9 +6,6 @@ import './Games.css'
 const Home = () => {
   return (
     <>
-
-      <Topbar/>
-
       <div className="hero">
 
             <h1>GAMES PAGE</h1>

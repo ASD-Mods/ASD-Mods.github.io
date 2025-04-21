@@ -8,9 +8,6 @@ import './Home.css'
 const Home = () => {
   return (
     <>
-
-      <Topbar/>
-
       <div className="hero">
 
             <h1>MODBUNKER</h1>
