@@ -93,14 +93,14 @@ const Home = () => {
 
                 <div className="fc-card">
                     <h3>Constantly Evolving</h3>
-                    <p>Get the best modding experience possible with constant updates from the Modrinth team</p>
+                    <p>Get the best modding experience possible with constant updates from the ModBunker team</p>
                 </div>
 
             </div>
         
             <Customlinebreak />
 
-            <h3 className='fc-title'>Learn more at out dedicated modder section</h3>
+            <h3 className='fc-title'>Learn more at our dedicated modder section</h3>
             <a className='fc-learn-more' href="/modcreators/home">Learn More</a>
             
             <Customlinebreak />
