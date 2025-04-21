@@ -31,22 +31,22 @@
 }
 
 
-/* POPULAR MODS CSS */
+/* POPULAR GAMES CSS */
 
-.popular-mods {
+.popular-games {
     text-align: center;
     padding: 0rem 1rem;
     color: white;
     font-family: 'Inter', sans-serif;
 }
 
-.popular-mods h2 {
+.popular-games h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
     letter-spacing: 1px;
 }
 
-.popularmods-grid {
+.populargames-grid {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -54,7 +54,7 @@
     gap: 2rem;
 }
 
-.popularmod-card {
+.populargames-card {
     background-color: rgba(255, 255, 255, 0.05);
     padding: 1.5rem;
     border-radius: 12px;
@@ -64,22 +64,22 @@
     text-align: left;
 }
 
-.popularmod-card:hover {
+.populargames-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
 }
 
-.popularmod-card h3 {
+.populargames-card h3 {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
 }
 
-.popularmod-card p {
+.populargames-card p {
     font-size: 0.95rem;
     color: #ccc;
 }
 
-.popularmod-card img {
+.populargames-card img {
     width: 100%;
     height: 140px;
     object-fit: cover;
@@ -95,10 +95,9 @@
 /* FOR CREATORS SECTION */
 
 .for-creators {
+    
+    width: 50%;
     font-family: 'Inter', sans-serif;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
     text-align: center;
     padding-top: 3rem;
     padding-bottom: 5rem;
@@ -153,4 +152,9 @@
 
 .fc-title {
     padding-bottom: 3rem;
+}
+
+.fc-container {
+    display: flex;
+    justify-content: center; /* horizontal centering */
 }

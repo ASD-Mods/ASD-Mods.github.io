@@ -1,6 +1,7 @@
 import Topbar from '../components/Topbar.jsx'
 import Customlinebreak from '../components/CustomLineBreak.jsx'
 import SideBySidePara from '../components/SideBySidePara.jsx'
+import Footer from '../components/Footer.jsx'
 import tempImage from '../assets/capsule_616x353.jpg'
 import '../index.css'
 import './Home.css'
@@ -8,9 +9,6 @@ import './Home.css'
 const Home = () => {
   return (
     <>
-
-      <Topbar/>
-
       <div className="hero">
 
             <h1>MODBUNKER</h1>
@@ -20,21 +18,13 @@ const Home = () => {
         
       <Customlinebreak />
       
-      <section className="popular-mods">
+      <section className="popular-games">
 
-            <h2>Most Popular Mods</h2>
+            <h2>Most Popular Games</h2>
 
-            <div className="popularmods-grid">
+            <div className="populargames-grid">
 
-                <div className="popularmod-card">
-
-                    <img src={tempImage} alt="PLACEHOLDER" />
-                    <h3>PLACEHOLDER</h3>
-                    <p>💾 45,200 Downloads</p>
-
-                </div>
-
-                <div className="popularmod-card">
+                <div className="populargames-card">
 
                     <img src={tempImage} alt="PLACEHOLDER" />
                     <h3>PLACEHOLDER</h3>
@@ -42,7 +32,15 @@ const Home = () => {
 
                 </div>
 
-                <div className="popularmod-card">
+                <div className="populargames-card">
+
+                    <img src={tempImage} alt="PLACEHOLDER" />
+                    <h3>PLACEHOLDER</h3>
+                    <p>💾 45,200 Downloads</p>
+
+                </div>
+
+                <div className="populargames-card">
 
                     <img src={tempImage} alt="PLACEHOLDER" />
                     <h3>PLACEHOLDER</h3>
@@ -72,7 +70,7 @@ const Home = () => {
 
       <Customlinebreak />
 
-
+<div className='fc-container'>
       <div className='for-creators'>
         <h1 className='fc-title'>For Creators</h1>
         <h3>Create mods for everyone to enjoy</h3>
@@ -108,6 +106,7 @@ const Home = () => {
             <a className='fc-learn-more' href="/modcreators/home">Learn More</a>
             
             <Customlinebreak />
+      </div>
       </div>
     </>
   )
