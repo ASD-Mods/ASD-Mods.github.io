@@ -58,6 +58,11 @@
     letter-spacing: 0.5px;
 }
 
+.logo-circle img {
+    width: 150%;
+    height: 150%;
+}
+
 .brand {
     font-weight: 700;
     font-size: 1.3rem;

@@ -1,7 +1,5 @@
-import Topbar from '../components/Topbar.jsx'
 import Customlinebreak from '../components/CustomLineBreak.jsx'
 import SideBySidePara from '../components/SideBySidePara.jsx'
-import Footer from '../components/Footer.jsx'
 import tempImage from '../assets/capsule_616x353.jpg'
 import '../index.css'
 import './Home.css'

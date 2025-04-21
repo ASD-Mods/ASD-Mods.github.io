@@ -1,3 +1,5 @@
+import logo from '../assets/logo_blank.png'
+
 import './Topbar.css'
 
 function Topbar (){
@@ -7,7 +9,7 @@ function Topbar (){
 
         <div className="topbar">
             <div className="topbar-left">
-                <div className="logo-circle">LOGO</div>
+                <div className="logo-circle"><img src={logo} alt="LOGO" /></div>
                 <span className="brand">MODBUNKER</span>
             </div>
             <div className="topbar-middle">
