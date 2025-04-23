@@ -1,31 +1,10 @@
-/* WEBSITE HERO CSS */
-
-.hero {
-    text-align: center;
-    margin-top: 6rem;
-    color: white;
-    font-family: 'Inter', sans-serif;
-}
-
-.hero h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-.hero p {
-    font-size: 1.1rem;
-    margin-top: 0.5rem;
-}
-
-
-/* WEBSITE DESCRIPTION CSS */
-
-.wesbite-info {
-    text-align: center;
-    color: whitesmoke;
-    font-family: 'Inter', sans-serif;
-    margin-top: 1.5rem;
-    font-size: 1.5rem;
-    line-height: 1.4;
+.games-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    
+    margin-bottom: 5rem;
+    margin-top: 5rem;
 }
