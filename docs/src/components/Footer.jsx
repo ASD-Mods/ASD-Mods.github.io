@@ -28,8 +28,8 @@ const Footer = () => {
 
         <div className='footer-col socials'>
           <h3>Resources</h3>
-          <a href="">Instagram</a>
-          <a href="">Instagram</a>
+          <a href="">Ticket Center</a>
+          <a href="">Report Issues</a>
         </div>
 
         <div className='footer-col socials'>
