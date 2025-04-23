@@ -1,13 +1,22 @@
 .SideBySidePara {
     display: flex;
-    margin-left: 18%;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+    gap: 2rem;
+}
+
+.SideBySidePara.reverse {
+    flex-direction: row-reverse;
+}
+
+.SBSP-Left, .SBSP-Right {
+    width: 32%;
+    padding: 2rem;
 }
 
 .SBSP-Left {
     font-family: 'Inter', sans-serif;
-    width: 32%;
-    padding: 2rem;
-    margin-right: 1rem;
 }
 .SBSP-Left p {
     font-size: 1.5rem;
@@ -18,12 +27,18 @@
 
 .SBSP-Right {
     border-radius: 1.5rem;
-    border-color: rgba(0, 0, 0, 0.11);
-    border-style: solid;
-    border-width: 0.5rem;
-    border-radius: 1.5rem;
-    width: 32%;
+    border: 0.5rem solid rgba(0, 0, 0, 0.11);
     background: linear-gradient(to bottom, #6395c01f 0%, #7a7a7a1f 50%, #9797971f 100%);
-    padding: 2rem;
-    margin-left: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .SideBySidePara {
+        flex-direction: column;
+    }
+    .SideBySidePara.reverse {
+        flex-direction: column;
+    }
+    .SBSP-Left, .SBSP-Right {
+        width: 90%;
+    }
 }

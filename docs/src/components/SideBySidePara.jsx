@@ -2,23 +2,27 @@ import React, { ReactNode } from "react";
 import "./SideBySidePara.css";
 import tempImage from "../assets/capsule_616x353.jpg";
 
-/* make image a property */
+/**
+ * Props:
+ * - Title: string
+ * - children: ReactNode (text content)
+ * - image?: string (optional custom image source)
+ * - reverse?: boolean (swap sides)
+ */
 
-
-const SideBySidePara = (Props) => {
+const SideBySidePara = ({ Title, children, image, reverse }) => {
   return (
-    <div className="SideBySidePara">
+    <div className={`SideBySidePara ${reverse ? "reverse" : ""}`}>
       <div className="SBSP-Left">
-        <h3>{Props.Title}</h3>
-        <p>
-          {Props.children}
-        </p>
+        <h3>{Title}</h3>
+        <p>{children}</p>
       </div>
       <div className="SBSP-Right">
-        <img width="100%" src={tempImage} alt="STUFF" />
+        <img width="100%" src={image || tempImage} alt="STUFF" />
       </div>
     </div>
   );
 };
+
 
 export default SideBySidePara;

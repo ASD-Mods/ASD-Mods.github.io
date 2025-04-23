@@ -61,9 +61,27 @@ const Home = () => {
 
       <Customlinebreak />
 
-      <SideBySidePara Title="Many different games that you can chose from.">
-        Choose from over 23048702537 different games for you to play, mod, and
-        enjoy.
+      <SideBySidePara Title="We offer a wide variety of modded games.">
+        Explore thousands of games enhanced by the community. 
+        With over 50,000 mods published, there’s something for every kind of player — 
+        dive in, discover, and enjoy the world of modding!
+        play, mod enjoy!
+      </SideBySidePara>
+
+      <Customlinebreak />
+
+      <SideBySidePara Title="Find what you need, instantly." reverse>
+        ModBunker’s powerful search bar lets you browse through thousands of mods in seconds — 
+        saving you time and helping you get straight to the fun.
+      </SideBySidePara>
+
+      <Customlinebreak />
+
+      <SideBySidePara Title="Powerful Tools for Mod Creators">
+        ModBunker isn’t just for players —
+         it’s built for creators too. Upload, manage, and update your mods with ease.
+        Our tools are designed to help you showcase your work, grow your audience, 
+        and get the recognition you deserve.
       </SideBySidePara>
 
       <Customlinebreak />
