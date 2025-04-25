@@ -1,6 +1,6 @@
 import Customlinebreak from '../components/CustomLineBreak.jsx'
 import SideBySidePara from '../components/SideBySidePara.jsx'
-import tempImage from '../assets/capsule_616x353.jpg'
+import GameCard from '../components/GameCard.jsx'
 import '../index.css'
 import './Home.css'
 
@@ -22,29 +22,11 @@ const Home = () => {
 
             <div className="populargames-grid">
 
-                <div className="populargames-card">
+                <GameCard />
 
-                    <img src={tempImage} alt="PLACEHOLDER" />
-                    <h3>PLACEHOLDER</h3>
-                    <p>💾 45,200 Downloads</p>
+                <GameCard />
 
-                </div>
-
-                <div className="populargames-card">
-
-                    <img src={tempImage} alt="PLACEHOLDER" />
-                    <h3>PLACEHOLDER</h3>
-                    <p>💾 45,200 Downloads</p>
-
-                </div>
-
-                <div className="populargames-card">
-
-                    <img src={tempImage} alt="PLACEHOLDER" />
-                    <h3>PLACEHOLDER</h3>
-                    <p>💾 45,200 Downloads</p>
-                    
-                </div>
+                <GameCard />
 
             </div>
 
@@ -119,7 +101,7 @@ const Home = () => {
             <Customlinebreak />
 
             <h3 className='fc-title'>Learn more at our dedicated modder section</h3>
-            <a className='fc-learn-more' href="/modcreators/home">Learn More</a>
+            <a className='fc-learn-more' href="/modcreators_home">Learn More</a>
             
             <Customlinebreak />
       </div>
