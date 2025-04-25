@@ -68,13 +68,6 @@ const Home = () => {
         play, mod enjoy!
       </SideBySidePara>
 
-      <SideBySidePara Title="We offer a wide variety of modded games." reverse={true}>
-        Explore thousands of games enhanced by the community. 
-        With over 50,000 mods published, there’s something for every kind of player — 
-        dive in, discover, and enjoy the world of modding!
-        play, mod enjoy!
-      </SideBySidePara>
-
       <Customlinebreak />
 
       <SideBySidePara Title="Find what you need, instantly." reverse>
