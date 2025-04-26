@@ -6,7 +6,7 @@ import tempImage from '../assets/capsule_616x353.jpg'
 const ModCard = () => {
   return (
     
-    <a href="/game_page?id=12gf8y9uih" className="mod-card">
+    <a href="/mod_page?id=7ygywe6763" className="mod-card">
 
         <img src={tempImage} alt="PLACEHOLDER" />
         <h3>PLACEHOLDER</h3>
