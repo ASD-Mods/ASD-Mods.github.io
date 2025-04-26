@@ -10,9 +10,11 @@ import Footer from './components/Footer.jsx';
 
 import Home from './pages/Home';
 import Games from './pages/Games';
-import GamePage from './pages/generic/GamePage';
+
 import MCHome from './pages/modcreators/Home';
 
+import GamePage from './pages/generic/GamePage';
+import ModPage from './pages/generic/ModPage';
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
         <Route path="/modcreators_home" element={<MCHome />} />
         
         <Route path="/game_page" element={<GamePage />} />
+        <Route path="/mod_page" element={<ModPage />} />
       </Routes>
     </Router>
     <Footer/>
