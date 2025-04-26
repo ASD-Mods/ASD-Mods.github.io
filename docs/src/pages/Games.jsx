@@ -1,6 +1,7 @@
 import GameCard from '../components/GameCard.jsx'
 import '../index.css'
 import './Games.css'
+import SearchBar from '../components/SearchBar.jsx'
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       </div>
     </div>
 
+    <SearchBar />
 
     <div className="games-grid">
         <GameCard /> <GameCard /> <GameCard /> <GameCard /> <GameCard />
