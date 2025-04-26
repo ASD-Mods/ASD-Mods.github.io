@@ -8,6 +8,8 @@ import {
 import Topbar from './components/Topbar.jsx';
 import Footer from './components/Footer.jsx';
 
+import NotFound from './pages/NotFound';
+
 import Home from './pages/Home';
 import Games from './pages/Games';
 
@@ -29,6 +31,9 @@ function App() {
         
         <Route path="/game_page" element={<GamePage />} />
         <Route path="/mod_page" element={<ModPage />} />
+
+        
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
     <Footer/>
