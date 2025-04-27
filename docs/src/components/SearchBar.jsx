@@ -25,9 +25,9 @@ const SearchBar = () => {
         className="search-bar-select"
       >
         <option value="all">All</option>
-        <option value="weapons">Weapons</option>
-        <option value="vehicles">Vehicles</option>
-        <option value="armor">Armor</option>
+        <option value="Downloads">Downloads</option>
+        <option value="Mod Count">Mod Count</option>
+        <option value="Date Added">Date Added</option>
       </select>
       <button type="submit">Search</button>
     </form>
