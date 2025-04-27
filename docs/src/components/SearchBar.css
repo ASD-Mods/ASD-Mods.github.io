@@ -16,6 +16,7 @@
     border-radius: 10px 0 0 10px;
     font-size: 1rem;
     outline: none;
+    box-sizing: border-box;
   }
   
   .search-bar input::placeholder {
@@ -34,6 +35,7 @@
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s;
+    box-sizing: border-box;
   }
   
   .search-bar button:hover {
