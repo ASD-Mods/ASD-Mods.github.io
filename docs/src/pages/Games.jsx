@@ -2,16 +2,15 @@ import GameCard from '../components/GameCard.jsx'
 import '../index.css'
 import './Games.css'
 import SearchBar from '../components/SearchBar.jsx'
+import Dropdown from '../components/Dropdown.jsx'
 
 const Home = () => {
+  const sortFilters = ["Downloads", "Date Added", "Mod Count"]
+
   return (
     <>
 
     <div>
-      <div className='searchbar'>
-        seach for games
-      </div>
-      
       <div className='filters'>
         filters which games are shown (only show adventure etc)
       </div>
@@ -21,6 +20,7 @@ const Home = () => {
       </div>
     </div>
 
+    <Dropdown items={sortFilters} />
     <SearchBar />
 
     <div className="games-grid">
