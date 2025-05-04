@@ -5,6 +5,8 @@ import {
   Route,
 } from 'react-router-dom';
 
+import './index.css'
+
 import Topbar from './components/Topbar.jsx';
 import Footer from './components/Footer.jsx';
 

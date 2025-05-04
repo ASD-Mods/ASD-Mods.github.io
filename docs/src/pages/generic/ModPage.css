@@ -1,3 +1,5 @@
+
+
 .banner_image {
     object-fit:cover;
     object-position: top;
@@ -10,4 +12,76 @@
     margin-left: 15%;
     margin-right: 15%;
     width: 70%;
+}
+
+.mod-main {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+.mod-topbar {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    height: 6rem;
+    width: 100%;
+
+    background-color: rgb(49, 50, 54);
+
+    border-radius: 1rem;
+
+    display: inline-flex;
+}
+
+.mod-topbar div {
+    width: 50%;
+}
+.mod-topbar h2 {
+    margin-left: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.mod-topbar p {
+    margin-left: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-weight: 600;
+
+    color: rgb(204, 204, 204);
+}
+
+.mod-topbar-buttons button {
+    font-size: 1.5rem;
+
+    padding: 1rem;
+}
+
+.mod-logo {
+    object-fit:cover;
+    object-position: top;
+    height: 100%;
+    aspect-ratio: 1;
+    
+    border-radius: 0.6rem;
+    border-color: black;
+    border-width: 10px;
+}
+
+.current-page {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    width: 100%;
+
+    background-color: rgb(22, 22, 24);
+
+    border-radius: 1rem;
+
+    display: inline-flex;
+}
+
+.current-page p {
+    font-size: 2rem;
 }
