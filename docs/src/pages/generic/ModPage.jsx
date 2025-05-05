@@ -1,4 +1,6 @@
 import Customlinebreak from '../../components/CustomLineBreak.jsx'
+import ExpansiveImage from '../../components/ExpansiveImage.jsx'
+
 import tempImage from '../../assets/capsule_616x353.jpg'
 
 import "./ModPage.css"
@@ -58,24 +60,13 @@ const ModPage = () => {
                 distinctio incidunt quisquam voluptates eum, earum aut fugiat.</p>
           </div>
           ) : currentPage === "Gallery" ? (
-            <div>
-              <h1>Gallery</h1>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Libero harum iure, aspernatur neque officiis consequatur 
-                dolores modi placeat facilis quibusdam corrupti atque 
-                distinctio incidunt quisquam voluptates eum, earum aut fugiat.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Libero harum iure, aspernatur neque officiis consequatur 
-                dolores modi placeat facilis quibusdam corrupti atque 
-                distinctio incidunt quisquam voluptates eum, earum aut fugiat.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Libero harum iure, aspernatur neque officiis consequatur 
-                dolores modi placeat facilis quibusdam corrupti atque 
-                distinctio incidunt quisquam voluptates eum, earum aut fugiat.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Libero harum iure, aspernatur neque officiis consequatur 
-                dolores modi placeat facilis quibusdam corrupti atque 
-                distinctio incidunt quisquam voluptates eum, earum aut fugiat.</p>
+            <div className='gallery'>
+              <ExpansiveImage src="this is useless rn" />
+              <ExpansiveImage src="this is useless rn" />
+              <ExpansiveImage src="this is useless rn" />
+              <ExpansiveImage src="this is useless rn" />
+              <ExpansiveImage src="this is useless rn" />
+              <ExpansiveImage src="this is useless rn" />
             </div>
           ) : currentPage === "Feed" ? (
             <div>
