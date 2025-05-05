@@ -1,14 +1,19 @@
 
 .topbar {
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.75rem 1.5rem;
     height: auto;
+
     background-color: var(--background-color7);
     color: var(--font-color1);
 }
+
 
 .topbar-left {
     display: flex;
@@ -70,8 +75,24 @@
     letter-spacing: 0.5px;
 }
 
-.menu-icon {
-    font-size: 1.8rem;
-    cursor: pointer;
-    padding: 0.25rem;
+.auth-button {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-left: 1rem;
+    color: var(--font-color1);
+    text-decoration: none;
+    border: 1px solid var(--blue-color2);
+    padding: 0.4rem 0.9rem;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.auth-button:hover {
+    background-color: var(--blue-color2);
+    color: #000;
+}
+
+.auth-button.signup {
+    background-color: var(--blue-color2);
+    color: #000;
 }

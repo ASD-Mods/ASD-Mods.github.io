@@ -21,7 +21,8 @@ function Topbar (){
                 </div>
             </div>
             <div className="topbar-right">
-                <div className="menu-icon">☰</div>
+                <a href="/login" className="auth-button">Login</a>
+                <a href="/signup" className="auth-button signup">Sign Up</a>
             </div>
         </div>
 
