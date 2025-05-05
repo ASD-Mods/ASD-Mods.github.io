@@ -1,4 +1,4 @@
-.container {
+.feed-cont {
     border-radius: 1rem;
     padding: 2rem;
 
@@ -9,7 +9,7 @@
     background-color: var(--background-color6);
 }
 
-.container p {
+.feed-cont p {
     font-size: 1.3rem;
     font-weight: 600;
 }

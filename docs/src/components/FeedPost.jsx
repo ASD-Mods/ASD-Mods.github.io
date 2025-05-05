@@ -8,7 +8,7 @@ import tempImage from '../assets/capsule_616x353.jpg'
 
 const FeedPost = () => {
   return (
-    <div className='container'>
+    <div className='feed-cont'>
         <h3>Jan 1st 2025</h3>
         <h1>Aquatic Update</h1>
         <p>Digga d im in love with violence violence woah he works with

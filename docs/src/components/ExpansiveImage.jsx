@@ -14,7 +14,7 @@ const ExpansiveImage = () => {
 
   return (
     <>
-    <div onClick={toggleExpand} className='main-div' >
+    <div onClick={toggleExpand} className='expandsive-image' >
         <img src={tempImage} alt="asd" />
 
         <h1>capsule_616x353.jpg</h1>
