@@ -1,5 +1,6 @@
 import Customlinebreak from '../../components/CustomLineBreak.jsx'
 import ExpansiveImage from '../../components/ExpansiveImage.jsx'
+import FeedPost from '../../components/FeedPost.jsx'
 
 import tempImage from '../../assets/capsule_616x353.jpg'
 
@@ -69,24 +70,9 @@ const ModPage = () => {
               <ExpansiveImage src="this is useless rn" />
             </div>
           ) : currentPage === "Feed" ? (
-            <div>
-              <h1>Feed</h1>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Libero harum iure, aspernatur neque officiis consequatur 
-                dolores modi placeat facilis quibusdam corrupti atque 
-                distinctio incidunt quisquam voluptates eum, earum aut fugiat.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Libero harum iure, aspernatur neque officiis consequatur 
-                dolores modi placeat facilis quibusdam corrupti atque 
-                distinctio incidunt quisquam voluptates eum, earum aut fugiat.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Libero harum iure, aspernatur neque officiis consequatur 
-                dolores modi placeat facilis quibusdam corrupti atque 
-                distinctio incidunt quisquam voluptates eum, earum aut fugiat.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Libero harum iure, aspernatur neque officiis consequatur 
-                dolores modi placeat facilis quibusdam corrupti atque 
-                distinctio incidunt quisquam voluptates eum, earum aut fugiat.</p>
+            <div className='feed'>
+              <FeedPost />
+              <FeedPost />
             </div>
           ) : currentPage === "Downloads" ? (
             <div>

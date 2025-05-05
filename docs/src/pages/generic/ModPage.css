@@ -86,3 +86,10 @@
     margin-bottom: 5rem;
     margin-top: 2rem;
 }
+
+
+
+/* FEED CSS */
+.feed {
+    gap: 3rem;
+}
