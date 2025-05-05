@@ -1,18 +1,18 @@
 .populargames-card {
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: var(--card-color1);
     padding: 1.5rem;
     border-radius: 12px;
     width: 250px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 10px var(--card-color2);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     text-align: left;
     text-decoration: none;
-    color: #fff;
+    color: var(--font-color1);
 }
 
 .populargames-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 6px 15px var(--card-color3);
 }
 
 .populargames-card h3 {
@@ -22,7 +22,7 @@
 
 .populargames-card p {
     font-size: 0.95rem;
-    color: #ccc;
+    color: var(--font-color1);
 }
 
 .populargames-card img {

@@ -27,8 +27,8 @@
 
 .SBSP-Right {
     border-radius: 1.5rem;
-    border: 0.5rem solid rgba(0, 0, 0, 0.11);
-    background: linear-gradient(to bottom, #6395c01f 0%, #7a7a7a1f 50%, #9797971f 100%);
+    border: 0.5rem solid var(--background-color6);
+    background: linear-gradient(to bottom, var(--background-color3) 0%, var(--background-color1) 50%, var(--background-color5) 100%);
 }
 
 @media screen and (max-width: 768px) {

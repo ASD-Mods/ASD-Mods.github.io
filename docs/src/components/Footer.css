@@ -1,5 +1,5 @@
 .footer-div {
-  background: #0f0f0f;
+  background: var(--background-color1);
   padding: 2rem 1rem 3rem;
   display: flex;
   justify-content: center;
@@ -21,14 +21,14 @@
 }
 
 .footer-col h3 {
-  color: #8ebaec;
+  color: var(--blue-color3);
   margin-bottom: 0.5rem;
   margin-top: 0;
 }
 
 .footer-col a {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--font-color1);
   margin: 0.3rem 0;
   font-weight: 400;
   transition: color 0.2s ease;
@@ -37,7 +37,7 @@
 }
 
 .footer-col a:hover {
-  color: rgb(91, 203, 255);
+  color: var(--blue-color2);
 }
 
 .footer-icon {

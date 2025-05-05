@@ -1,12 +1,38 @@
 /* WEBSITE OVERALL CHANGES HERE */
 
+:root {
+  --background-color1: #0f0f0f;
+  --background-color2: #000000;
+  --background-color3: #0a1a28;
+  --background-color4: #2d2d2d;
+  --background-color5: #161616;
+  --background-color6: #0c0c0c;
+  --background-color7: #080808;
+
+  --font-color1: #ffffff;
+  --font-color2: #cfcfcf;
+  
+  --blue-color1: #10286e;
+  --blue-color2: rgb(91, 203, 255);
+  --blue-color3: #8ebaec;
+  --blue-color4: #4c90ff;
+  --blue-color5: rgba(38, 93, 255, 0.6);
+  --blue-color6: #2563eb;
+
+  --card-color1: rgba(255, 255, 255, 0.05);
+  --card-color2: rgba(0, 0, 0, 0.3);
+  --card-color3: rgba(0, 0, 0, 0.5);
+
+  --misc-color1: rgba(255, 255, 255, 0.2);
+}
+
 body {
     
   height: 100%;
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
-    background: linear-gradient(to bottom, #0f0f0f 0%, #000000 60%, #0a1a28 100%);
+    background: linear-gradient(to bottom, var(--background-color1) 0%, var(--background-color2) 60%, var(--background-color3) 100%);
     min-height: 100vh;
     color: white;
 }

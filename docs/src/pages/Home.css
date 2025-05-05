@@ -3,7 +3,6 @@
 .hero {
     text-align: center;
     margin-top: 6rem;
-    color: white;
     font-family: 'Inter', sans-serif;
 }
 
@@ -11,11 +10,13 @@
     font-size: 2.5rem;
     font-weight: 700;
     letter-spacing: 1px;
+    color: var(--font-color1);
 }
 
 .hero p {
     font-size: 1.1rem;
     margin-top: 0.5rem;
+    color: var(--font-color2);
 }
 
 
@@ -23,7 +24,7 @@
 
 .wesbite-info {
     text-align: center;
-    color: whitesmoke;
+    color: var(--font-color1);
     font-family: 'Inter', sans-serif;
     margin-top: 1.5rem;
     font-size: 1.5rem;
@@ -36,7 +37,7 @@
 .popular-games {
     text-align: center;
     padding: 0rem 1rem;
-    color: white;
+    color: var(--font-color1);
     font-family: 'Inter', sans-serif;
 }
 
@@ -55,18 +56,18 @@
 }
 
 .populargames-card {
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: var(--card-color1);
     padding: 1.5rem;
     border-radius: 12px;
     width: 250px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 10px var(--card-color2);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     text-align: left;
 }
 
 .populargames-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 6px 15px var(--card-color3);
 }
 
 .populargames-card h3 {
@@ -76,7 +77,7 @@
 
 .populargames-card p {
     font-size: 0.95rem;
-    color: #ccc;
+    color: var(--font-color2);
 }
 
 .populargames-card img {
@@ -115,18 +116,18 @@
 }
 
 .fc-card {
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: var(--card-color1);
     padding: 1.5rem;
     border-radius: 12px;
     width: 100%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 10px var(--card-color2);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     text-align: left;
 }
 
 .fc-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 6px 15px var(--card-color3);
 }
 
 .fc-card h3 {
@@ -136,13 +137,13 @@
 
 .fc-card p {
     font-size: 0.95rem;
-    color: #ccc;
+    color: var(--font-color2);
 }
 
 
 .fc-learn-more {
-    background-color: #10286e;
-    color: rgb(255, 255, 255);
+    background-color: var(--blue-color1);
+    color: var(--font-color1);
     text-decoration: none;
     padding: 1rem;
     border-radius: 0.8rem;

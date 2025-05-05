@@ -3,7 +3,7 @@
 .hero {
   text-align: center;
   margin-top: 6rem;
-  color: white;
+  color: var(--font-color1);
   font-family: 'Inter', sans-serif;
 }
 

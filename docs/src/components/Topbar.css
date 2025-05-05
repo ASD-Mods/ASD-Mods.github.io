@@ -6,8 +6,8 @@
     align-items: center;
     padding: 0.75rem 1.5rem;
     height: auto;
-    background-color: #05070A;
-    color: white;
+    background-color: var(--background-color7);
+    color: var(--font-color1);
 }
 
 .topbar-left {
@@ -29,18 +29,18 @@
     font-size: 1.3rem;
     font-family: 'Inter', sans-serif;
     letter-spacing: 0.5px;
-    color: whitesmoke;
+    color: var(--font-color1);
     text-decoration: none;
     margin-right: 1rem;
 }
 
 .topbar-link:hover {
     transform: translateY(-3px);
-    color: rgb(91, 203, 255);
+    color: var(--blue-color6);
 }
 
 .active {
-    color: rgb(0, 174, 255);
+    color: var(--blue-color2);
     text-decoration: underline;
     text-underline-offset: 0.5rem; 
 }
