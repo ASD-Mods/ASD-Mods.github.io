@@ -1,0 +1,57 @@
+.main-div {
+    width: 27.5%;
+    
+    cursor: pointer;
+    
+    background-color: var(--background-color6);
+
+    border-style: solid;
+    border-radius: 0.6rem;
+    border-color: var(--background-color6);
+    border-width: 0.5rem;
+}
+
+.main-div img {
+    width: 100%;
+
+    border-radius: 0.6rem;
+    
+    object-fit:cover;
+    object-position: top;
+    aspect-ratio: 2;
+}
+
+.main-div h1 {
+    color: var(--font-color3);
+
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.main-div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px var(--card-color3);
+}
+
+
+.fullscreen-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .fullscreen-image {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+  
