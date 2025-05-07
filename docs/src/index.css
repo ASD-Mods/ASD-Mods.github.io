@@ -23,6 +23,8 @@
   --card-color1: rgba(255, 255, 255, 0.05);
   --card-color2: rgba(0, 0, 0, 0.3);
   --card-color3: rgba(0, 0, 0, 0.5);
+  --card-color4: rgba(0, 0, 0, 0.8);
+  --card-color5: rgba(26, 26, 27);
 
   --misc-color1: rgba(255, 255, 255, 0.2);
 }

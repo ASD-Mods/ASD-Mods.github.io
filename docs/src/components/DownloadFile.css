@@ -1,9 +1,10 @@
 .download-cont {
-display: flex;
+    display: flex;
     height: 5rem;
-    width: 100%;
+    width: 90%;
 
     margin-top: 2rem;
+    margin-left: 5%;
 }
 
 .file-info {
@@ -87,3 +88,28 @@ display: flex;
     transform: translateY(-5px);
     box-shadow: 0 6px 15px var(--card-color3);
 }
+
+
+.df-fullscreen-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--card-color4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+  
+.df-expanded-div {
+    background-color: var(--card-color5);
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+    border-radius: 3rem;
+
+    padding: 3rem;
+}
+  

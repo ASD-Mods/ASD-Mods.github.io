@@ -1,4 +1,3 @@
-import Customlinebreak from '../../components/CustomLineBreak.jsx'
 import ExpansiveImage from '../../components/ExpansiveImage.jsx'
 import FeedPost from '../../components/FeedPost.jsx'
 
@@ -91,7 +90,7 @@ const ModPage = () => {
                       <h3>Buttons</h3>
                   </div>
               </div>
-              <Customlinebreak />
+              <hr className="mp-clinebreak"/>
 
               <DownloadFile />
               <DownloadFile />
