@@ -93,3 +93,44 @@
 .feed {
     gap: 3rem;
 }
+
+
+
+/* DOWNLOADS CSS */
+.downloads {
+    width: 100%;
+}
+
+
+.title-cont {
+    display: flex;
+        height: 5rem;
+        width: 100%;
+    }
+    
+    .mp-file-info {
+        width: 40%;
+        text-align: center;
+    
+    }
+    .mp-file-info h1{
+        font-size: 1.3rem;
+        padding-top: 0;
+        padding-right: 5rem;
+    }
+    
+    .mp-date-posted {
+        width: 20%;
+        margin: auto;
+        text-align: center;
+    }
+    .mp-more-info {
+        width: 40%;
+        margin: auto;
+        text-align: center;
+    }
+    .mp-buttons {
+        width: 20%;
+        margin: auto;
+        text-align: center;
+    }

@@ -7,6 +7,7 @@ import tempImage from '../../assets/capsule_616x353.jpg'
 import "./ModPage.css"
 
 import { useState } from 'react'
+import DownloadFile from '../../components/DownloadFile.jsx'
 
 const ModPage = () => {
   const [currentPage, setCurrentPage] = useState("Overview");
@@ -21,7 +22,10 @@ const ModPage = () => {
           <p>Digga d im a well known bandit heard a new mash js landed jeez cop it chop it sand it</p>
         </div>
         <div className='mod-topbar-buttons'>
-          <button> \/ Download</button>
+           
+          <div className='df-download'>
+                Download
+          </div>
         </div>
       </div>
       
@@ -75,24 +79,22 @@ const ModPage = () => {
               <FeedPost />
             </div>
           ) : currentPage === "Downloads" ? (
-            <div>
-              <h1>Downloads</h1>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Libero harum iure, aspernatur neque officiis consequatur 
-                dolores modi placeat facilis quibusdam corrupti atque 
-                distinctio incidunt quisquam voluptates eum, earum aut fugiat.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Libero harum iure, aspernatur neque officiis consequatur 
-                dolores modi placeat facilis quibusdam corrupti atque 
-                distinctio incidunt quisquam voluptates eum, earum aut fugiat.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Libero harum iure, aspernatur neque officiis consequatur 
-                dolores modi placeat facilis quibusdam corrupti atque 
-                distinctio incidunt quisquam voluptates eum, earum aut fugiat.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Libero harum iure, aspernatur neque officiis consequatur 
-                dolores modi placeat facilis quibusdam corrupti atque 
-                distinctio incidunt quisquam voluptates eum, earum aut fugiat.</p>
+            <div className='downloads'>
+              <div className='title-cont'>
+                  <div className='mp-file-info'>
+                      <h1>File Info</h1>
+                  </div>
+                  <div className='mp-date-posted'>
+                      <h3>Time Posted</h3>
+                  </div>
+                  <div className='mp-more-info'>
+                      <h3>Buttons</h3>
+                  </div>
+              </div>
+              <Customlinebreak />
+
+              <DownloadFile />
+              <DownloadFile />
             </div>
           ) : (<h1>Error has occured</h1>)}
       </div>
