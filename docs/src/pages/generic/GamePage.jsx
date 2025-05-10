@@ -1,11 +1,17 @@
 import Customlinebreak from '../../components/CustomLineBreak.jsx'
 import ModCard from '../../components/ModCard.jsx'
+import SearchBar from '../../components/SearchBar.jsx'
+import Dropdown from '../../components/Dropdown.jsx'
 
 import "./GamePage.css"
 
 import tempImage from '../../assets/capsule_616x353.jpg'
 
 const GamePage = () => {
+  // Make these filters more "intuitive"
+  const sortOrder = ["All (⬆)", "Downloads (⬆)", "Date Added (⬆)", "Likes (⬆)", "Downloads (⬇)", "Date Added (⬇)", "Likes (⬇)"]
+  const sortFilters = ["Any", "Gameplay", "Graphical", "Content", "Conversion", "Utility", "AI / NPC", "Sound", "Multiplayer", "World", "Performance"]
+
   return (
     <>
     <div className='banner'>
@@ -18,19 +24,7 @@ const GamePage = () => {
     <Customlinebreak />
 
     
-    <div>
-      <div className='searchbar'>
-        seach for games
-      </div>
-      
-      <div className='filters'>
-        filters which games are shown (only show adventure etc)
-      </div>
-      
-      <div className='sort-order'>
-        order that the games sorted in (most popular first etc)
-      </div>
-    </div>
+    <SearchBar fillerText="Search mods..." ord={sortOrder} fil={sortFilters} />
 
 
     <div className='mods-grid'>

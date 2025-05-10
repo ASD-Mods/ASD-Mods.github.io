@@ -1,7 +1,14 @@
 import React, { useState } from "react";
 import "./SearchBar.css";
 
-const SearchBar = () => {
+/**
+ * Props:
+ * - fillerText: The text shown when search is empty
+ * - ord: Array that creates the different search orders
+ * - fil: Array that creates the different search filters
+ */
+
+const SearchBar = ({ fillerText, ord, fil }) => {
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState("all");
 
@@ -15,20 +22,37 @@ const SearchBar = () => {
     <form className="search-bar" onSubmit={handleSubmit}>
       <input
         type="text"
-        placeholder="Search mods..."
+        placeholder={fillerText}
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
+
+
       <select
         value={filter}
         onChange={(e) => setFilter(e.target.value)}
         className="search-bar-select"
       >
-        <option value="all">All</option>
-        <option value="Downloads">Downloads</option>
-        <option value="Mod Count">Mod Count</option>
-        <option value="Date Added">Date Added</option>
+        {ord.map((item, index) => (
+          <option key={index} value={item}>
+            {item}
+          </option>
+        ))}
       </select>
+
+      <select
+        value={filter}
+        onChange={(e) => setFilter(e.target.value)}
+        className="search-bar-select"
+      >
+        {fil.map((item, index) => (
+          <option key={index} value={item}>
+            {item}
+          </option>
+        ))}
+      </select>
+
+
       <button type="submit">Search</button>
     </form>
   );
