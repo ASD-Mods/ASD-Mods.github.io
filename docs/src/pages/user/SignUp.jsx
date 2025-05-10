@@ -1,0 +1,5 @@
+/*
+
+a page for the user to create a brand new account for the platform
+
+*/

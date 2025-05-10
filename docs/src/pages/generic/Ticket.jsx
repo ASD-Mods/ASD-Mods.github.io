@@ -1,0 +1,6 @@
+/*
+
+a page for users and staff to communicate
+basically just a chatbox
+
+*/
