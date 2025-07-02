@@ -28,7 +28,7 @@ const ModPage = () => {
         </div>
       </div>
       
-      <div>
+      <div className='mp-body-buttons'>
         <button onClick={() => setCurrentPage("Overview")}>
           Overview
         </button>

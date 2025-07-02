@@ -20,6 +20,9 @@ import MCHome from './pages/modcreators/Home';
 import GamePage from './pages/generic/GamePage';
 import ModPage from './pages/generic/ModPage';
 
+import Profile from './pages/generic/Profile';
+
+
 function App() {
   return (
     <>
@@ -34,6 +37,7 @@ function App() {
         <Route path="/game_page" element={<GamePage />} />
         <Route path="/mod_page" element={<ModPage />} />
 
+        <Route path="/profile" element={<Profile />} />
         
         <Route path="*" element={<NotFound />} />
       </Routes>

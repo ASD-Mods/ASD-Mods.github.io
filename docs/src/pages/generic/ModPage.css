@@ -73,6 +73,35 @@
 }
 
 
+.mp-body-buttons {
+    border-radius: 1rem;
+
+    background-color: var(--background-color5);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    
+}
+
+.mp-body-buttons button {
+    font-size: 1.3rem;
+    font-weight: 600;
+
+    border-color: #ffffff00;
+
+    background-color: #ffffff00;
+    color: var(--blue-color2);
+
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+
+}
+
+.mp-body-buttons button:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+
+}
 
 
 /* GALLERY CSS */
